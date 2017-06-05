@@ -1,0 +1,27 @@
+.select2-container .select2-selection--single{
+    height: 34px;
+    color: red;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 34px;
+}
+
+.help-block{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.input-loading{
+    background-color: #ffffff;
+    background-image: url("/portalqiwi/assets/images/pre-loader.gif");
+    background-size: 25px 25px;
+    background-position: 99% center;
+    background-repeat: no-repeat;
+}
+
+.no-padding-col {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}

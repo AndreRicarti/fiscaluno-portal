@@ -1,0 +1,76 @@
+.form-inline > * {
+    margin: 6px !important;
+}
+
+.radio-position {
+    margin-left: 10px;
+}
+
+.nav-tab-geral {
+    border-top: 3px solid #9eceff !important;
+}
+
+.table-geral thead {
+    background-color: #9eceff;
+}
+
+.nav-tab-endereco {
+    border-top: 3px solid #ffb7c7 !important;
+}
+
+.table-endereco thead {
+    background-color: #ffb7c7;
+}
+
+.nav-tab-contato {
+    border-top: 3px solid #ddc6ff !important;
+}
+
+.table-contato thead {
+    background-color: #ddc6ff;
+}
+
+.nav-tab-financeiro {
+    border-top: 3px solid #C5E1A5 !important;
+}
+
+.table-financeiro thead {
+    background-color: #C5E1A5;
+}
+
+.nav-tab-detalhes {
+    border-top: 3px solid #FFCC80 !important;
+}
+
+.table-detalhes thead {
+    background-color: #FFCC80;
+}
+
+li.active {
+    border-width: 6px !important;
+}
+
+.table-actions {
+    width: 6%;
+    text-align: center;
+    border-top: 3px solid #9eceff !important;
+}
+
+.style-row-table {
+    background-color: #fff9f9;
+}
+
+.style-row-table:hover {
+    background-color: #FFFFFF;
+}
+
+.style-row-geral {
+    background-color: #d1d1d1;
+}
+
+.style-row-geral:hover {
+    background-color: #d9d9d9;
+}
+.modal {
+    background: rgba(0,0,0,0.3) !important;
+}
