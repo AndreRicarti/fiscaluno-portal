@@ -4,10 +4,10 @@ $(document).ready(function() {
         $("#dealer-new-edit-div").hide();
         $("#dealer-list-div").show();
 
-        var estruturaID = $("#input-estrutura-filtro").val();
+        /*var estruturaID = $("#input-estrutura-filtro").val();
         var estadoID = $("#input-estado-filtro").val();
         var cidadeID = $("#input-cidade-filtro").val();
-        var dealerEnabled = $("#input-ativado-filtro").is(":checked");
+        var dealerEnabled = $("#input-ativado-filtro").is(":checked");*/
 
         $("#0").val("2");
         $("#1").val("Julio Cesar");
@@ -15,7 +15,7 @@ $(document).ready(function() {
         $("#3").val("Uma faculdade que me ajudou a me tornar um profissional qualificado.");
         $("#4").val("Barra Funda");
 
-        getDealerData(estruturaID, estadoID, cidadeID, dealerEnabled);
+        //getDealerData(estruturaID, estadoID, cidadeID, dealerEnabled);
     });
 
     $("#new-dealer-btn").unbind('click').click(function() {
