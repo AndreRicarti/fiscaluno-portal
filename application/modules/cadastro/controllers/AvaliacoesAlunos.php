@@ -8,7 +8,7 @@ class AvaliacoesAlunos extends MX_Controller {
 	public function __construct(){
         parent::__construct();
 		//$this->load->model('cadastro/Agente_model');
-		$this->load->library('utils');
+		//$this->load->library('utils');
 	}
 	
 	public function index()
