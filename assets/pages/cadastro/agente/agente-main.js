@@ -15,7 +15,7 @@ $(document).ready(function() {
         $("#3").val("Uma faculdade que me ajudou a me tornar um profissional qualificado.");
         $("#4").val("Barra Funda");
 
-        //getDealerData(estruturaID, estadoID, cidadeID, dealerEnabled);
+        getDealerData();
     });
 
     $("#new-dealer-btn").unbind('click').click(function() {
