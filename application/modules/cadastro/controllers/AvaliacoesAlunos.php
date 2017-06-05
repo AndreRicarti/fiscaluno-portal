@@ -7,14 +7,14 @@ class AvaliacoesAlunos extends MX_Controller {
 
 	public function __construct(){
         parent::__construct();
-		$this->load->model('cadastro/Agente_model');
+		//$this->load->model('cadastro/Agente_model');
 		$this->load->library('utils');
 	}
 	
 	public function index()
 	{
 		$this->template->load('template', 'agente/agente-view.php');
-        $this->load->view('agente/agente-modals.php');
+        //$this->load->view('agente/agente-modals.php');
 	}
 
 	public function get() {
