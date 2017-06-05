@@ -42,7 +42,7 @@ function getDealerData(estruturaID, estadoID, cidadeID, dealerEnabled) {
     $("#div-dealer-table").html("Carregando...");
 
     $.ajax({
-        url: '/cadastro/avaliacoesalunos/get',
+        url: '/avaliacoesalunos/get',
         type: 'POST',
         dataType: 'json',
         data: {
